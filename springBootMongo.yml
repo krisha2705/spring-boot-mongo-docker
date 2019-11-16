@@ -12,7 +12,7 @@ spec:
         name: springboot
     spec:
       containers:
-      - image: dockerhandson/spring-boot-m
+      - image: krisha2705/spring-boot-m
         name: springboot
         ports:
         - name: springboot
