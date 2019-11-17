@@ -36,6 +36,4 @@ node{
         sh 'kubectl apply -f pringBootMongo.yml'
       } **/
      
-}
-
 
