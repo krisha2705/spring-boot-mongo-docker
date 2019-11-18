@@ -10,14 +10,14 @@ agent any
 	  }
 	   stage("Maven Test"){
 		   steps{
-			   withMaven(maven: 'maven'){
+			   withMaven(maven: 'apache-maven-3.6.2'){
                 sh "mvn clean test"
 			   }
 		   }
 	   }
 	   stage("Maven Package"){
 		    steps{
-			    withMaven(maven: 'maven'){
+			    withMaven(maven: 'apache-maven-3.6.2'){
 			    
 		   sh "mvn clean package"
 			    }
